@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Blog Sphere</title>
+	<title>Blog Sphere Git</title>
 	<link rel="stylesheet" href="css/index.css?version-1">
 	<link rel="stylesheet" href="css/footer.css">
 </head>
