@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    line-height: 1.6;
+}
+
+.container {
+    margin: 0px 30px;
+}
+
+.heading {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.heading h1 {
+    font-size: 3em;
+}
+
+.heading p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.container2 {
+    border-radius: 37px;
+    background-color: white;
+}
+
+.content {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content > div {
+    margin-bottom: 50px;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mission,
+.vision {
+    flex: 1;
+    padding: 0px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+.features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}

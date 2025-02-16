@@ -1,0 +1,52 @@
+.button-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+.circle-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.circle-button .material-icons {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.button-text {
+    margin-left: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.button-container:hover .circle-button {
+    background-color: white;
+}
+
+.button-container:hover .circle-button .material-icons {
+    color: black;
+}
+
+.button-container:hover .button-text {
+    opacity: 1;
+    transform: translateX(0);
+}
